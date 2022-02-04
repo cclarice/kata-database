@@ -56,6 +56,7 @@
   
   ### Примеры
   
+  <img src="">
   
 </details>
 <details>

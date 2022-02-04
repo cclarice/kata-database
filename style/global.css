@@ -1,0 +1,37 @@
+:root {
+	--yellow: #CDBD68;
+}
+
+html {
+	font-family:     'Segoe UI', sans-serif;
+	display:         flex;
+	align-items:     center;
+	justify-content: center;
+	min-width:       100vw;
+	min-height:      100vh;
+	color:           #CBD1D6;
+}
+
+p {
+	max-width: 320px;
+}
+
+code,
+code > pre,
+code > pre > span {
+	font-family: 'JetBrains Mono', monospace;
+	color: unset;
+	font-size: unset;
+}
+
+code {
+	font-family: 'JetBrains Mono', monospace;
+	display: flex;
+	background-color: #232425;
+	padding: 4px 8px 4px;
+	border-left: #454749 solid 2px;
+	border-radius: 0 4px 4px 0;
+	width: fit-content;
+}
+
+

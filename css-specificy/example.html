@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../style/global.css">
+	<link rel="stylesheet" href="style.css">
+	<title>CSS специфичность</title>
+</head>
+<body style="background-color: #2F3032">
+	<div id="test">
+		<span>Text</span>
+	</div>
+	<br>
+	<code> index.html </code>
+	<code><pre>&lt;div id=&quot;test&quot;&gt;
+  &lt;span&gt;Text&lt;/span&gt;
+&lt;/div&gt;</pre></code><br>
+	<code> style.css </code>
+	<code><pre><span style="color: var(--yellow)">div#test span</span> { color: green }
+div span { color: blue }
+span { color: red }</pre></code>
+	<p>
+		В этом примере текст зелёный потому что первый селектор имеет наибольшую специфичность
+	</p>
+</body>
+</html>
