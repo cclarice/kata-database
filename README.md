@@ -11,7 +11,17 @@
 * Что такое source map?
 
 | Вопрос, ссылка на мой ответ | Ресурсы |
-| :-: | :-: |
-| CSS спецефичность | [Специфичность MDN Web Docs](https://developer.mozilla.org/ru/docs/Web/CSS/Specificity#%D0%BA%D0%B0%D0%BA_%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C) |
+| :--- | :--- |
+| [CSS спецефичность](#answer_css) | [Специфичность MDN Web Docs](https://developer.mozilla.org/ru/docs/Web/CSS/Specificity#%D0%BA%D0%B0%D0%BA_%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C) |
+| Inline блоки | - |
+| БЭМ | - |
+| CSS контекст наложения | - |
+| Babel | - |
+| Source map | - |
 
-### Ответы на воспросы
+### Ответы на вопросы
+
+<details>
+  <summary name="answer_css"> #### CSS специфичность </summary>
+  Ответ
+</details>
