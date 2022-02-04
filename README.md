@@ -15,7 +15,7 @@
 | Вопрос, ссылка на мой ответ | Ресурсы |
 |-----------------------------|---------|
 | [CSS спецефичность](#answer_css_specificity) | [Специфичность MDN Web Docs](https://developer.mozilla.org/ru/docs/Web/CSS/Specificity#%D0%BA%D0%B0%D0%BA_%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C) |
-| [Inline блоки](#answer_inline_blocks) | [CSS-live.ru](https://css-live.ru/articles-css/udivitelnyj-i-neizvestnyj-inline-block.html) |
+| [Inline блоки](#answer_inline_blocks) | [CSS-live.ru](https://css-live.ru/articles-css/udivitelnyj-i-neizvestnyj-inline-block.html), [YouTube Алексей Пауков](https://www.youtube.com/watch?v=krsV53STWkE) |
 | [БЭМ](#answer_bem) | - |
 | [CSS контекст наложения](#answer_stacking_context) | - |
 | [Babel](#answer_babel) | - |
@@ -72,7 +72,8 @@ span { color: red }
 </details>
 <details>
   <summary name="answer_inline_blocks"> Inline блоки </summary>
-  Ответ
+	Учитываются символы пробелов и табуляции
+	Ведёт себя как inline (текстовый поток) и распологается по его правилам
 </details>
 <details>
   <summary name="answer_bem"> БЭМ </summary>
