@@ -12,14 +12,14 @@
 * Что такое babel и для чего нужен?
 * Что такое source map?
 
-| Вопрос, ссылка на мой ответ | Ресурсы |
-|-----------------------------|---------|
+| Вопрос, ссылка на мой ответ | Ресурсы                                                                                                                                                                                                                                                      |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [CSS спецефичность](#answer_css_specificity) | [Специфичность MDN Web Docs](https://developer.mozilla.org/ru/docs/Web/CSS/Specificity#%D0%BA%D0%B0%D0%BA_%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F_%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C) |
-| [Inline блоки](#answer_inline_blocks) | [CSS-live.ru](https://css-live.ru/articles-css/udivitelnyj-i-neizvestnyj-inline-block.html), [YouTube Алексей Пауков](https://www.youtube.com/watch?v=krsV53STWkE) |
-| [БЭМ](#answer_bem) | - |
-| [CSS контекст наложения](#answer_stacking_context) | - |
-| [Babel](#answer_babel) | - |
-| [Source map](#answer_sourse_map) | - |
+| [Inline блоки](#answer_inline_blocks) | [CSS-live.ru](https://css-live.ru/articles-css/udivitelnyj-i-neizvestnyj-inline-block.html), [YouTube Алексей Пауков](https://www.youtube.com/watch?v=krsV53STWkE)                                                                                           |
+| [БЭМ](#answer_bem) | [YouTube](https://www.youtube.com/watch?v=HihYQVuH64U)                                                                                                                                                                                                       |
+| [CSS контекст наложения](#answer_stacking_context) | [MDN Web Docs](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)                                                                                                                                     |
+| [Babel](#answer_babel) | [kolmogorov.pro](https://kolmogorov.pro/what-is-it-babel-chto-takoe-dge-ispolzuyut)                                                                                                                                                                          |
+| [Source map](#answer_sourse_map) | [HABR](https://habr.com/ru/post/509250/)                                                                                                                                                                                                                     |
 
 <details>
   <summary markdown="span" name="answer_css_specificity"> CSS специфичность </summary>
