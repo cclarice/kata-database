@@ -78,38 +78,110 @@ span { color: red }
 <details>
   <summary name="answer_bem"> БЭМ </summary>
 	
-  ### БЭМ
+## БЭМ
+  Это методология, правила вёрстки
+### [Блок](#bem_block) [Элемент](#bem_element) [Модификатор](#bem_modificator)
+### `block__element_modificator`
 
-	#### Блок
+<h3 name="bem_block">Блок</h3>
 
-	Это функционально независимый компонент страницы,
-	который может быть использован множество раз.
-	Название класса блока должно отвечать на вопрос 'Что это?',
-	а не как выглядит.
-	Не стоит задавать блоку внешнюю геометрию (`margin` или `padding`),
-	это позволяет перемещать и использовать блоки повторно
-	никак не влияя на окружение.
-	Блоки можно вкладывать в друг друга,
-	Допустима любая вложеность блоков.
-	Пример:
-	```html
-	<!-- Вложенность блоков -->
-	
-	<!-- Блок `about` -->
-	<div class="about">
-		<!-- Вложенный блок `title` -->
-		<div class="title"></div>
-		<!-- Вложенный бдлк `subtitle` -->
-		<div class="subtitle"></div>
+&nbsp;&nbsp;&nbsp;&nbsp;Это функционально независимый компонент страницы, <br>
+который может быть использован множество раз. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Название класса блока должно отвечать <br>
+на вопрос 'Что это?', а не как выглядит. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Не стоит задавать блоку внешнюю геометрию (`margin` или `padding`), <br>
+это позволяет перемещать и использовать блоки повторно <br>
+никак не влияя на окружение. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Блоки можно вкладывать в друг друга, <br>
+Допустима любая вложеность блоков. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Пример:
+```html
+<!-- Вложенность блоков -->
+
+<!-- Блок `about` -->
+<div class="about">
+	<!-- Вложенный блок `title` -->
+	<div class="title"></div>
+	<!-- Вложенный бдлк `subtitle` -->
+	<div class="subtitle"></div>
+</div>
+```
+
+<h3 name="bem_element">Элемент</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;Это неотъемлемая составная часть блока, <br>
+которая не может использоваться в отрыве от него. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Имя элемента отвечает на вопрос `Что это?`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Имя элемента наследует имя блока таким образом: <br>
+`block__element`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Элемент всегда должен быть частью блок и не должен <br>
+использоваться вне блока <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Элемент это не обязательный компонент блока
+
+Примеры:
+
+1. Пример. Элемента в блоке навигации
+```html
+<nav class="menu">
+	<a class="menu__link">Первый элемент меню</a>
+	<a class="menu__link">Второй элемент меню</a>
+	<a class="menu__link">Третий элемент меню</a>
+</nav>
+```
+2. Пример. Элементы можно вкладывать друг в друга, <br>
+Допустима любая вложенность элементов в элементы, <br>
+элемент это всегда часть блока, а не другого элемента
+
+```html
+<!-- Блок `row` -->
+<div class="row">
+	<!-- Элемент `column` -->
+	<div class="row__column">
+		<!-- Элемент `item` -->
+		<div class="row__item"></div>
 	</div>
-	```
-	
-	<h4 name="bem_element">Элемент</h4>
-	
-	<h4 name="bem_modificator">Модификатор</h4>
-	</details>
+</div>
+```
+
+**ОШИБКОЙ** является подобная запись:
+~~row__column__item~~
+
+   
+
+<h3 name="bem_modificator">Модификатор</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;Применяется для определения или уточнения <br>
+внешнего вида, состояния или поведения блока или элемента <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Имя должно отвечать на вопрос `какой?`, <br>`как выглядит?`, `Как себя ведёт?` либо его `состояние`
+&nbsp;&nbsp;&nbsp;&nbsp;Имя дополняет блок или элемент таким образом: <br>
+`block_modificator`<br>
+`block__element_modificator`<br>
+
+Пример:
+
+```html
+<nav class="menu">
+	<a class="menu__item menu__item_active">HOME</a>
+	<a class="menu__item">ABOUT</a>
+	<a class="menu__item">CONTACT</a>
+</nav>
+```
+
+<h3> Миксы </h3>
+
+Приём позволяющий использовать и блоки и элементы в одном объекте
+
+Пример: 
+```html
+<!-- Блок `about` -->
+<div class="about">
+  <!-- Элемент `title` -->
+  <div class="about__title title"></div>
+  <!-- Элемент `subtitle` -->
+  <div class="about__subtitle subtitle"></div>
+</div>
+```
+</details>
 <details>
-  <summary name="answer_stacking_context"> [CSS контекст наложения </summary>
+  <summary name="answer_stacking_context"> CSS контекст наложения </summary>
   Ответ
 </details>
 <details>
