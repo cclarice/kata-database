@@ -1,0 +1,122 @@
+html,
+body {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	gap: 48px;
+	width: 100vw;
+	height: 100vh;
+	background-color: #2F3032;
+	color: #d6d6d6;
+}
+
+html {
+	overflow: hidden;
+}
+
+.block {
+	display: block;
+  max-width: 460px;
+  min-width: 380px;
+	height: fit-content;
+  text-align: center;
+  font: 18px/40px sans-serif;
+
+	background: linear-gradient(
+								#cc8 1px,
+								transparent 1px,
+								transparent 26px,
+								#88c 26px,
+								#88c 27px,
+								transparent 27px,
+								transparent 39px,
+								#c88 39px,
+								#c88 40px,
+								#cc8 40px,
+								#cc8 41px,
+								transparent 41px,
+								transparent 66px,
+								#88c 66px,
+								#88c 67px,
+								transparent 67px,
+								transparent 79px,
+								#c88 79px,
+								#c88 80px,
+								#cc8 80px,
+								#cc8 81px,
+								transparent 81px,
+								transparent 116px,
+								#88c 116px,
+								#88c 117px,
+								transparent 117px,
+								transparent 139px,
+								#c88 139px,
+								#c88 140px,
+								#cc8 140px,
+								#cc8 141px,
+								transparent 141px,
+								transparent 176px,
+								#88c 176px,
+								#88c 177px,
+								transparent 177px,
+								transparent 189px,
+								#c88 189px
+							);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.display-inline-block {
+	display:        inline-block;
+  outline:        1px solid #44664488;
+  outline-offset: -1px;
+  line-height:    1.1;
+  background:     rgba(136, 136, 64, 0.3);
+}
+
+.one {
+	padding: .3em;
+}
+
+.small {
+	font-size: .75em;
+}
+
+.large {
+	line-height: 52px;
+	padding: 4px;
+}
+
+.two-lines {
+	font-size: .9em;
+	background-color: #80FF807F;
+	padding: 1px 4px;
+}
+
+.bottom {
+	vertical-align: bottom;
+}
+
+.top {
+	vertical-align: top;
+}
+
+.middle {
+	vertical-align: middle;
+}
+
+.empty {
+	width: 30px;
+	height: 26px;
+	margin: 5px 0;
+	box-shadow: 0 5px 0 0 #FF000033,0 -5px 0 0 #FF000033;
+}
+
+.text {
+	display: block;
+	font-size: 16px;
+	font-family: 'Segoe UI', sans-serif;
+  margin: auto;
+  max-width: 460px;
+  min-width: 380px;
+}
