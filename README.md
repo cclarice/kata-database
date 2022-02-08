@@ -74,6 +74,8 @@ span { color: red }
   <summary name="answer_inline_blocks"> Inline блоки </summary>
   Учитываются символы пробелов и табуляции
   Ведёт себя как inline (текстовый поток) и распологается по его правилам
+
+  [inline-block](https://htmlpreview.github.io/?https://github.com/cclarice/kata-notepad/blob/main/inline-block/index.html) preview
 </details>
 <details>
   <summary name="answer_bem"> БЭМ </summary>
